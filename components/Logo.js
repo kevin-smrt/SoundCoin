@@ -15,6 +15,7 @@ const styles = {
     },
 
     logoTitle: {
+        cursor: 'pointer',
         fontSize: '3rem',
         fontWeight: '700',
         color: 'white',

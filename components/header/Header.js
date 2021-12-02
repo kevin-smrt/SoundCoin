@@ -49,11 +49,19 @@ const styles = {
         textDecoration: 'none',
         color: 'white',
         fontWeight: 600,
+        transition: '.2s',
+        '&:hover': {
+            color: 'var(--secondary-text-color)',
+        },
     },
 
     headerIcon: {
         cursor: 'pointer',
         color: 'white',
         fontSize: '25px',
+        transition: '.2s',
+        '&:hover': {
+            color: 'var(--secondary-text-color)',
+        },
     }
 }
