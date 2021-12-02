@@ -35,6 +35,7 @@ export default function Header() {
 
 const styles = {
     header: {
+        userSelect: 'none',
         justifyContent: 'space-around',
         p: 4,
     },
