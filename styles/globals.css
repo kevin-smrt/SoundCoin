@@ -8,6 +8,11 @@
     --primary-text-color: #FDFDFD;
     --secondary-text-color: #B8A9F3;
     --sub-text-color: #6C728A;
+
+    --smaller-devices: 320px;
+    --small-devices: 480px;
+    --medium-devices: 1024px;
+    --large-devices: 1200px;
 }
 
 * {
@@ -20,4 +25,5 @@
 body {
     height: 300vh;
     background-image: linear-gradient( 80deg,  var(--background-primary) 20%, var(--background-secondary) 90% );
+    overflow-x: hidden;
 }
