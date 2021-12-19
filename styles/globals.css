@@ -1,29 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 
 :root {
-    --primary-color: #633AD9;
-    --secondary-color: #413B70;
-    --background-primary: #2F2B4A;
-    --background-secondary: #453F7A;
-    --primary-text-color: #FDFDFD;
-    --secondary-text-color: #B8A9F3;
-    --sub-text-color: #6C728A;
+  --primary-color: #633ad9;
+  --secondary-color: #413b70;
+  --background-primary: #2f2b4a;
+  --background-secondary: #453f7a;
+  --primary-text-color: #fdfdfd;
+  --secondary-text-color: #b8a9f3;
+  --sub-text-color: #6c728a;
+  --alt-color: #47b2eb;
 
-    --smaller-devices: 320px;
-    --small-devices: 480px;
-    --medium-devices: 1024px;
-    --large-devices: 1200px;
+  --smaller-devices: 320px;
+  --small-devices: 480px;
+  --medium-devices: 1024px;
+  --large-devices: 1200px;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 body {
-    height: 300vh;
-    background-image: linear-gradient( 80deg,  var(--background-primary) 20%, var(--background-secondary) 90% );
-    overflow-x: hidden;
+  background-image: linear-gradient(
+    80deg,
+    var(--background-primary) 20%,
+    var(--background-secondary) 90%
+  );
+  overflow-x: hidden;
 }
