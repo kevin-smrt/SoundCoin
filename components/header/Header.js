@@ -1,4 +1,4 @@
-import { NavLink, Flex, Box } from "@theme-ui/components";
+import { NavLink, Flex } from "@theme-ui/components";
 import Logo from "../Logo";
 import { BiWallet, BiUser, BiMenu } from "react-icons/bi";
 
@@ -58,6 +58,7 @@ export default function Header() {
 const styles = {
   header: {
     position: "fixed",
+    zIndex: "1000",
     height: "auto",
     width: "100%",
     userSelect: "none",
